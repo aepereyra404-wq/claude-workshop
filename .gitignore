@@ -1,0 +1,24 @@
+# General
+.DS_Store
+.idea/
+.vscode/
+# Environment files
+*.env
+# Go build artifacts
+bin/
+*.exe
+*.out
+*.test
+*.prof
+# Go modules
+vendor/
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+build/
+Dist/
+*.egg-info/
+# Miscellaneous
+logs/
+*.log
