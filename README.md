@@ -9,11 +9,12 @@ Welcome to the **Claude Code** Cloud Code workshop! This repository contains the
    git clone https://github.com/your-org/claude-workshop.git
    cd claude-workshop
    ```
-2. **Install the recommended VS Code plugin**
-   - **Context Mode** – provides extra context to Claude Code and other AI agents.
-   - Install it from the marketplace or directly via:
-     ```bash
-     code --install-extension https://github.com/mksglu/context-mode
+2. **Install the recommended Claude Code plugin**
+   - **[Context Mode](https://github.com/mksglu/context-mode)** – provides extra context to Claude Code and other AI agents.
+   - Install it using Claude Code commands:
+     ```
+     /plugin marketplace add mksglu/context-mode
+     /plugin install context-mode@context-mode
      ```
 3. Follow the workshop instructions in the `examples/` folder (or as provided by the instructor).
 
